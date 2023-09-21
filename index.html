@@ -11,12 +11,45 @@
     <h1> Reel South Florida</h1>
 </header>
 <body>
-<ul>    <!--Make these into buttons -->
-    <a href="https://en.wikipedia.org/wiki/Fishing" target="_blank">
-   <li id="fishing"> Fishing </li>
-    </a>
+<ul>    <!--Make these into buttons that lead to the images -->
+    <head> <!--bass button-->
+        <style>
+            .image-button {
+                display: inline-block;
+                position: relative;
+                text-align: center;
+                cursor: pointer;
+            }
+    
+            .image-button img {
+                width: 200px; /* Adjust the width of the image as needed */
+                height: auto;
+                border: none;
+            }
+    
+            .image-button .button-text {
+                position: absolute;
+                top: 46%;
+                left: 55%;
+                transform: translate(-50%, -50%);
+                background-color: rgba(0, 0, 0, 0.5); /* Background color for text */
+                color: white; /* Text color */
+                padding: 10px 20px; /* Adjust padding as needed */
+                border-radius: 5px; /* Add rounded corners to the text box */
+            }
+        </style>
+    </head>
+    <body>
+        <div class="image-button">
+            <img src="images/bass-button.png" alt="Image" />
+            <a href="https://en.wikipedia.org/wiki/Fishing" target="_blank">
+                <div class="button-text">Fishing</div>
+            </a>
+        </div>
+    <p> 
     <img src="images/ben-fish.jpg" width="7%" height="7%">
     <img src="images/peacock-bass.jpg" width="10%" height="10%">
+    </p>
     
     <li id="bird-watching"> Bird Watching</li>
     <img src="images/crows.jpg" width="7%" height="7%">
@@ -74,8 +107,5 @@
                 <div class="button-text">Fishing</div>
             </a>
         </div>
-        <p>
-         <img src="images/peacock-bass.jpg" width="10%" height="10%">   
-        </p>
         
     </body>
