@@ -1,19 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+<link rel="stylesheet" href="css/style.css">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<body>
-   
-    <img src=https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/220px-FullMoon2010.jpg>
-    <h1>Hello, this is my brand new website!!</h1>
-    <img id="phish_photo" src="images/20220524_141823.jpg" width="25%" height="25%">
-    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/73GEa5WTDTIjUWaBOBE2Jh?utm_source=generator&theme=0" width="50%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-    <iframe width="1000" height="857" src="https://www.youtube.com/embed/qRrqvjjKlOs" title="FIRST LOOK: Uzumaki | Toonami | adult swim" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     
-    <link rel="stylesheet" href="css/style.css">
-
+</head>
+<header>
+    <h1> Reel South Florida</h1>
+</header>
+<body>
+<ul>    <!--Make these into buttons -->
+    <a href="https://en.wikipedia.org/wiki/Fishing" target="_blank">
+   <li id="fishing"> Fishing </li>
+    </a>
+    <img src="images/ben-fish.jpg" width="7%" height="7%">
+    <img src="images/peacock-bass.jpg" width="10%" height="10%">
+    
+    <li id="bird-watching"> Bird Watching</li>
+    <img src="images/crows.jpg" width="7%" height="7%">
+    <img src="images/owl.jpg" width="10%" height="10%">
+    <img src="images/owl-closeup.jpg" width="10%" height="10%">
+    <img src="images/stork.jpg" width="10%" height="10%">
+    <img src="images/duck.jpg" width="10%" height="10%">
+    
+    <li id="plants"> Plants</li>
+    <img src="images/pink-flower.jpg" width="10%" height="10%">
+    <img src="images/bush.jpg" width="10%" height="10%">
+    
+    <li id="small-things"> Small Things</li>
+    <img src="images/finger-ant.jpg" width="10%" height="10%">
+    <img src="images/lizard.jpg" width="10%" height="10%">
+    <img src="images/moth.jpg" width="7%" height="7%">
+    
+    <li id="skies"> Skies</li>
+    <img src="images/clouds.jpg" width="10%" height="10%">
+</ul> 
 </body>
-</html>
+
+<body> <!--bass button-->
+    <head>
+        <style>
+            .image-button {
+                display: inline-block;
+                position: relative;
+                text-align: center;
+                cursor: pointer;
+            }
+    
+            .image-button img {
+                width: 200px; /* Adjust the width of the image as needed */
+                height: auto;
+                border: none;
+            }
+    
+            .image-button .button-text {
+                position: absolute;
+                top: 46%;
+                left: 55%;
+                transform: translate(-50%, -50%);
+                background-color: rgba(0, 0, 0, 0.5); /* Background color for text */
+                color: white; /* Text color */
+                padding: 10px 20px; /* Adjust padding as needed */
+                border-radius: 5px; /* Add rounded corners to the text box */
+            }
+        </style>
+    </head>
+    <body>
+        <div class="image-button">
+            <img src="images/bass-button.png" alt="Image" />
+            <a href="https://en.wikipedia.org/wiki/Fishing" target="_blank">
+                <div class="button-text">Fishing</div>
+            </a>
+        </div>
+        <p>
+         <img src="images/peacock-bass.jpg" width="10%" height="10%">   
+        </p>
+        
+    </body>
