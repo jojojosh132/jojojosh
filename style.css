@@ -1,0 +1,12 @@
+
+  
+  body{
+    background-color: rgb(66, 123, 180);
+    background-image: url('../images/background-image.jpg')
+    
+}
+
+.element {
+    background-image: url('../images/background-image2.jpg');
+    background-size: 100% 50%; /* Width x Height */
+  }
